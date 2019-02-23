@@ -1,0 +1,23 @@
+{
+  "name": "webpack-sass-bootstrap",
+  "version": "1.0.2",
+  "description": "Webpack-Sass-Bootstrap Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "npm-run-all css-build css-minify",
+    "css-build": "node-sass --output-style expanded --source-map true --source-map-contents true sass/main.scss wwwroot/css/main.css",
+    "css-minify": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output wwwroot/css/main.css wwwroot/css/main.css",
+    "css-watch": "nodemon --watch sass/ --ext scss --exec \"npm run css-compile\"",
+    "build": "npm run css-compile",
+    "watch": "npm run css-watch",
+    "start": "ws"
+  },
+  "author": "Shamin Meerankutty",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "clean-css-cli": "^4.2.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+$fonts-path: '../fonts/';
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url($fonts-path + 'IRANSansWeb(FaNum).woff2') format('woff2'),
+         url($fonts-path + 'IRANSansWeb(FaNum).woff') format('woff'),
+         url($fonts-path + 'IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+// @font-face {
+//     font-family: 'IRANSans';
+//     font-style: normal;
+//     font-weight: bold;
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_Bold.eot');
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+// }
+// @font-face {
+//     font-family: 'IRANSans';
+//     font-style: normal;
+//     font-weight: 500;
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_Medium.eot');
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+// }
+// @font-face {
+//     font-family: 'IRANSans';
+//     font-style: normal;
+//     font-weight: 300;
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_Light.eot');
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Light.woff2') format('woff2'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Light.woff') format('woff'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+// }
+// @font-face {
+//     font-family: 'IRANSans';
+//     font-style: normal;
+//     font-weight: 200;
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_UltraLight.eot');
+//     src: url($fonts-path + 'IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),
+//         url($fonts-path + 'IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+// }
+// @font-face {
+//     font-family: 'IRANSans';
+//     font-style: normal;
+//     font-weight: normal;
+//     src: url($fonts-path + 'IRANSansWeb(FaNum).eot');
+//     src: url($fonts-path + 'IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+//         url($fonts-path + 'IRANSansWeb(FaNum).woff2') format('woff2'),
+//         url($fonts-path + 'IRANSansWeb(FaNum).woff') format('woff'),
+//         url($fonts-path + 'IRANSansWeb(FaNum).ttf') format('truetype');
+// }
